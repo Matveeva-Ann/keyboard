@@ -1,0 +1,86 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+  }
+  
+  body{
+      background-color: rgb(182, 180, 180);
+  }
+  
+  .container{
+      width: 55%;
+      height: 60vh;
+      margin: 5% auto;
+      font-size: 15px;
+  }
+  .placesForText{
+      width: 100%;
+      border-radius: 10px;
+      background-color: white;
+      height: 30%;
+      margin-bottom: 8px;
+      padding: 10px;
+      overflow: hidden;
+      white-space: pre;
+  }
+  .row{
+      display: flex;
+      justify-content: space-between;
+      
+  }
+  .button{
+      width: 45px;
+      height: 45px;
+      background-color: white;
+      border-radius: 5px;
+      text-align: center;
+      line-height: 45px;
+      font-size: 18px;
+      margin: 2px;
+      padding: 2px;
+  }
+  
+  .flex-grow{
+      flex-grow: 1;
+      overflow: hidden;
+      white-space: nowrap;
+      text-overflow: ellipsis;
+      background-color: white;
+      border-radius: 5px;
+      text-align: center;
+      line-height: 45px;
+      font-size: 18px;
+      margin: 2px;
+      padding: 2px;
+      height: 45px;
+  
+  }
+  .LastRow{
+      width: auto;
+      border-radius: 5px;
+      height: 45px;
+      background-color: white;
+      margin: 2px;
+  }
+  .backlight{
+      background-color: grey;
+  }
+  @media screen and (max-width:1300px){
+      .container{
+          width: 70%;
+      }
+  }
+  @media screen and (max-width:1120px){
+      .container{
+          width: 80%;
+      }
+  }
+  @media screen and (max-width:970px){
+      .container{
+          width: 90%;
+      }
+  }
+  @media screen and (max-width:850px){
+      .container{
+          width: 97%;
+      }
+  }
